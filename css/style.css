@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: #fff;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    margin-top: 6%;
+    padding: 50px 20px 20px 50px;
+    box-shadow: 5px 10px 30px 1px;
+}
+.form-control, .btn
+{
+    width: 75%;
+    
+    
+}
+.btn{
+    height: 50px;
+    font-size: large;
+    font-style:normal;
+}
+.label-text{
+    width: 75%;
+    color: #000;
+    text-align: left;
+}
+#error{
+    visibility: hidden;
+    color: rgb(255, 0, 0);
+    
+}
