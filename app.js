@@ -15,7 +15,7 @@ import jsonwebtoken from 'jsonwebtoken'
 const jwt =  jsonwebtoken
 const JWT_SECRET = 'lsjdflkhhfhfhf;*@&*^*^#&*^T$&^$jhfjkdfkjgg'
 
-// Connect to MongoDB
+
 mongoose.connect(
   "mongodb+srv://tejasandeep:Phoenix030602@cluster0.ymm5l.mongodb.net/?retryWrites=true&w=majority",
   {
@@ -56,7 +56,7 @@ app.post("/api/login", async (req, res) => {
   res.json({ status: "error", error: "Invalid username/password" });
 });
 
-// register redirect post
+
 app.post("/api/register", async (req, res) => {
   console.log(req.body);
   const { username, email, password: plainTextPassword } = req.body;
