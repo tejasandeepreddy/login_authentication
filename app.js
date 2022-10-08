@@ -16,6 +16,7 @@ const jwt =  jsonwebtoken
 const JWT_SECRET = 'lsjdflkhhfhfhf;*@&*^*^#&*^T$&^$jhfjkdfkjgg'
 
 
+
 mongoose.connect(
   "mongodb+srv://tejasandeep:Phoenix030602@cluster0.ymm5l.mongodb.net/?retryWrites=true&w=majority",
   {
